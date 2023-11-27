@@ -267,6 +267,15 @@ main {
   .main_text_item {
     width: 92vw;
   }
+  
+  .header_text h1, .header_text h2 {
+    font-size: 1.2em;
+  }
+
+  .header_img img {
+    height: 150px;
+    width: 150px;
+  }
 
   .main_small_button_item {
     width: calc(92vw / 2 - 5px);;
@@ -274,6 +283,7 @@ main {
 
   .main_button_item {
     width: 92vw;
+    
   }
   
   .header_h_item {
