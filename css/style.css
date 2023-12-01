@@ -45,6 +45,7 @@
   --footer_background_color: #0e0e0e;
   --footer_text_color: #fff;
   --footer_link_text_color: #75f10f;
+
 }
 
 /* Basic Codes */
@@ -58,6 +59,8 @@ body {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  cursor: url(https://cur.cursors-4u.net/cursors/cur-11/cur1054.cur), auto !important;
+
 }
 
 .flex_column_center {
@@ -121,12 +124,14 @@ body {
 
 .header_svg_list {
   padding-top: 1em;
+  cursor: url(https://cur.cursors-4u.net/games/gam-12/gam1112.cur), auto;
 }
 
 .header_svg_item {
   width: 2.1em;
   height: 2.1em;
-  cursor: pointer;
+  cursor: url(https://cur.cursors-4u.net/games/gam-12/gam1112.cur), auto;
+
 }
 
 .header_svg_item:hover {
@@ -165,10 +170,9 @@ body {
   background-color: var(--menu_background_color);
   text-align: center;
   list-style-type: none;
-  cursor: pointer;
+  cursor: url(https://cur.cursors-4u.net/games/gam-12/gam1112.cur), auto;
   padding: 0.5em;
   border-radius: 0.3em;
-  cursor: pointer;
   transition: 0.10s ease;
   font-size: 1.1em;
 }
@@ -198,10 +202,12 @@ main {
   justify-content: center;
   color: var(--button_text_color);
   background-color: var(--button_background_color);
+  cursor: 
+  url(https://cur.cursors-4u.net/nature/nat-2/nat120.cur), auto;
   width: 41em;
   margin-top: 1em;
-  padding: 0.8em;
-  border-radius: 0.3em;
+  padding: 1.8em;
+  border-radius: 1.3em;
   min-height: 3.7em;
   text-align: center;
 }
@@ -209,16 +215,18 @@ main {
 .main_button_item {
   color: var(--button_text_color);
   background-color: var(--button_background_color);
+  box-shadow: #47f10f 0px 0px 0px 0.2em inset;
   width: 41em;
   border-radius: 1em;
   min-height: 3.7em;
   text-align: center;
-  cursor: pointer;
+  cursor: url(https://cur.cursors-4u.net/games/gam-12/gam1112.cur), auto;
 }
 
 .main_small_button_list {
   display: flex;
   flex-direction: row;
+
 }
 
 .main_small_a_item {
@@ -240,11 +248,12 @@ main {
 .main_small_button_item {
   color: var(--button_text_color);
   background-color: var(--button_background_color);
+  box-shadow: rgb(39, 231, 5) 0px 0px 0px 0.2em inset;
   width: calc(41em / 2 - 5px);
   border-radius: 1em;
   min-height: 3.7em;
   text-align: center;
-  cursor: pointer;
+  cursor: url(https://cur.cursors-4u.net/games/gam-12/gam1112.cur), auto;
 }
 
 /* Footer Codes */
@@ -292,3 +301,25 @@ main {
   }
   
 }
+
+::-webkit-scrollbar-track {
+  background-color: #171717;
+}
+
+::-webkit-scrollbar {
+  width: 0.5em;
+  background-color: #0e0e0e;
+  cursor: url(https://cur.cursors-4u.net/games/gam-12/gam1112.cur), auto;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #47f10f;
+  border-radius: 1em;
+  cursor: url(https://cur.cursors-4u.net/games/gam-12/gam1112.cur), auto;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(232, 6, 6);
+  cursor: url(https://cur.cursors-4u.net/games/gam-12/gam1112.cur), auto;
+}
+
